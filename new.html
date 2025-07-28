@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stylish Movie Search</title>
+  <link rel="stylesheet" href="new.css" />
+</head>
+<body>
+  <header>Movie Search</header>
+
+  <section class="search-section">
+    <input
+      type="text"
+      id="search-input"
+      placeholder="Search for a movie..."
+      aria-label="Search movies"
+    />
+    <button id="search-button">Search</button>
+    <button id="reset-button" type="button">Reset</button>
+  </section>
+
+  <main>
+    <div class="movies-container" id="movies-container"></div>
+    <div class="error-message" id="error-message" role="alert" aria-live="assertive" hidden>
+      No movies found. Try another search!
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Movie Search App — Created by Nad-E-Ali</p>
+    <p>Contact: <a href="mailto:@example.com">nadealikazmi51214@example.com</a></p>
+  </footer>
+
+  <script src="new.js"></script>
+</body>
+</html>
